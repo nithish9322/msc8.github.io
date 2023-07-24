@@ -1,0 +1,91 @@
+<html>
+<head>
+  <title>
+              CUSTOMER DETAILS
+</title>
+</head>
+<body bgcolor=" light blue">
+<H1><CENTER><MARK><U>CUSTOMER DETAILS</CENTER><MARK></U></H1>
+<?PHP
+?>
+<from>
+  <table>
+ <tr>
+ <td>
+        Name:
+          </td>
+           <td>
+                <input type="Name" placeholder="Name" name=""> 
+                 <?php if(isset($name)){echo $name;}?>
+               <?php if(isset($code) && $code=1)
+               {echo "class=errormsg";} ?></td>
+       </td>
+    <tr>
+    </tr>
+         <td>
+             City:
+           </td>
+      <td>
+           <input type="City"placeholder="City" name="">
+                           <?php if(isset($name)){echo $name;}?>
+               <?php if(isset($code) && $code=1)
+               {echo "class=errormsg";} ?></td>
+      </td>
+     <tr>
+     </tr>
+    <td> 
+             Pincode:
+       </td>
+       <td>
+                <input type="Pincode"placeholder="Pincode" name="">
+                        <?php if(isset($pincodde)){echo $pincode;}?>
+               <?php if(isset($code) && $code=3)
+               {echo "class=errormsg";} ?></td>
+         </td>
+     </tr>
+     <tr>
+          <td>
+              PhoneNumber:
+</td>
+<td>
+               <input type="Phonenumber"placeholder ="Phonenumber" name="">
+                     <?php if(isset($number)){echo $number;}?>
+               <?php if(isset($code) && $code=4)
+               {echo "class=errormsg";} ?> </td>
+</td>
+</tr>
+<tr>
+        <td>
+           Email add:
+</td>
+<td>
+            <input type="Emailadd"placeholder="Emailadd" name=""> 
+                      <?php if(isset($email)){echo $email;}?>
+               <?php if(isset($code) && $code=5)
+               {echo "class=errormsg";} ?> </td>
+</td>
+<tr>
+</tr>
+<td><button type="submit">submit</button>  
+</td>
+  </table>
+   </form>
+     </boby>
+   </head>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
